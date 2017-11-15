@@ -11,6 +11,8 @@ import AVFoundation
 
 class PlaySoundsViewController: UIViewController {
     
+    
+    // MARK: Outlets
     @IBOutlet weak var snailButton: UIButton!
     @IBOutlet weak var chipmunkButton: UIButton!
     @IBOutlet weak var rabbitButton: UIButton!
@@ -29,6 +31,7 @@ class PlaySoundsViewController: UIViewController {
         case slow = 0, fast, chipmunk, vader, echo, reverb
     }
     
+    // Single function to handle the six playback options
     @IBAction func playSoundForButton(_ sender: UIButton) {
         
         switch(ButtonType(rawValue: sender.tag)!) {
@@ -50,17 +53,20 @@ class PlaySoundsViewController: UIViewController {
 
     }
     
+    
+    // Function for stop button pressed
     @IBAction func stopButtonPressed(_ sender: AnyObject) {
         stopAudio()
         
     }
-
+    // Initial setup as view is loaded
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
         
     }
 
+    // Configure the VC on appear
     override func viewWillAppear(_ animated: Bool) {
         configureUI(.notPlaying)
     }
