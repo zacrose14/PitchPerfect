@@ -46,7 +46,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
     func playSound(rate: Float? = nil, pitch: Float? = nil, echo: Bool = false, reverb: Bool = false) {
         
         // initialize audio engine components
-        audioEngine = AVAudioEngine()
+        audioEngine = AVAudioEngine() 
         
         // node for playing audio
         audioPlayerNode = AVAudioPlayerNode()
