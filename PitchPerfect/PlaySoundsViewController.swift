@@ -12,7 +12,7 @@ import AVFoundation
 class PlaySoundsViewController: UIViewController {
     
     
-    // MARK: Outlets
+    // MARK: Outlets 
     @IBOutlet weak var snailButton: UIButton!
     @IBOutlet weak var chipmunkButton: UIButton!
     @IBOutlet weak var rabbitButton: UIButton!

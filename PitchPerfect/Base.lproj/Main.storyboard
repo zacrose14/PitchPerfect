@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fQi-3y-iwH">
-                                <rect key="frame" x="110" y="209" width="155" height="249.5"/>
+                                <rect key="frame" x="110" y="208" width="155" height="251.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YX2-lA-iAu">
-                                        <rect key="frame" x="0.0" y="0.0" width="155" height="249.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="251.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="n83-bU-1yR">
-                                                <rect key="frame" x="0.0" y="0.0" width="155" height="249.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="n83-bU-1yR">
+                                                <rect key="frame" x="0.0" y="0.0" width="155" height="251.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uux-qN-wPx">
                                                         <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
@@ -35,13 +35,13 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMv-Ir-beB">
-                                                        <rect key="frame" x="24.5" y="160" width="106.5" height="20.5"/>
+                                                        <rect key="frame" x="24.5" y="161" width="106.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w15-SX-O1H">
-                                                        <rect key="frame" x="45.5" y="185.5" width="64" height="64"/>
+                                                        <rect key="frame" x="45.5" y="187.5" width="64" height="64"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="64" id="6Lg-I4-p4c"/>
                                                             <constraint firstAttribute="width" constant="64" id="EBc-4d-nCO"/>
