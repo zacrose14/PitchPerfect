@@ -64,6 +64,16 @@ class PlaySoundsViewController: UIViewController {
         super.viewDidLoad()
         setupAudio()
         
+        // Code to make sure buttons look good on small devices
+        snailButton.imageView?.contentMode = .scaleAspectFit
+        chipmunkButton.imageView?.contentMode = .scaleAspectFit
+        rabbitButton.imageView?.contentMode = .scaleAspectFit
+        vaderButton.imageView?.contentMode = .scaleAspectFit
+        echoButton.imageView?.contentMode = .scaleAspectFit
+        reverbButton.imageView?.contentMode = .scaleAspectFit
+        stopButton.imageView?.contentMode = .scaleAspectFit
+        
+        
     }
 
     // Configure the VC on appear
